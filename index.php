@@ -64,6 +64,8 @@
             <div id="sobre-texto" class="text-md">
                 Eu sou Henrique B. Madeira, atualmente estou estudando Informática na escola Estadual João Manoel Mondrone.
                 <br>
+                Nascido na data de 03 de Agosto de 2005, na cidade de Medianeira Paraná.
+                <br>
                 Comecei a focar mais na minnha carreira quando comecei a trabalhar na Frivatti Agro, onde estou atuando nos dias de hoje.
                 Na Frivatti, útilizamos o nosso sistema AgroSig, onde foi desenvolvido pelos desenvolvedores da mesma, o qual integra as linguagens: 
                 PHP, Javascript, Framework Laravel e sua linguagem de marcaçao de texto como: HTML e CSS, 
