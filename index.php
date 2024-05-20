@@ -34,7 +34,7 @@
     </header>
     <main>
         <div id="home">
-            <img src="./foto_vermelha.jpeg" alt="Foto Home" id="home-foto">
+            <img src="./img/foto_vermelha.jpeg" alt="Foto Home" id="home-foto">
             <div id="home-nome" class="text-xxl">
                 Henrique B. Madeira
             </div>
@@ -43,19 +43,19 @@
             </div>
             <div id="home-links">
                 <a href="https://github.com/HenriqueHBM" target="_blank">
-                    <img src="./github.png" alt="GitHub" class="links-width-margin">
+                    <img src="./icons/github.png" alt="GitHub" class="links-width-margin">
                 </a>
                 <a href="https://br.linkedin.com/in/henrique-b-madeira-506598222" target="_blank">
-                    <img src="./linkedin.png" alt="Linkedin" class="links-width-margin">
+                    <img src="./icons/linkedin.png" alt="Linkedin" class="links-width-margin">
                 </a>
                 <a href="https://www.instagram.com/henrique_bm_/" target="_blank">
-                    <img src="./instagram.png" alt="Instagram" class="links-width-margin">
-                </a>
+                    <img src="./icons/instagram.png" alt="Instagram" class="links-width-margin">
+                </a> 
                 <a href="https://api.whatsapp.com/send?phone=5545998493946" target="_blank">
-                    <img src="./whatsapp.png" alt="Whatsapp" class="links-width-margin">
+                    <img src="./icons/whatsapp.png" alt="Whatsapp" class="links-width-margin">
                 </a>
                 <a href="mailto:henrique.madeira1@gmail.com" target="_blank">
-                    <img src="./gmail.png" alt="Email" class="links-width-margin">
+                    <img src="./icons/gmail.png" alt="Email" class="links-width-margin">
                 </a>
             </div>
         </div>
