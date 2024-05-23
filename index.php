@@ -70,7 +70,7 @@
                 Na Frivatti, útilizamos o nosso sistema AgroSig, onde foi desenvolvido pelos desenvolvedores da mesma, o qual integra as linguagens:
                 PHP, Javascript, Framework Laravel e sua linguagem de marcaçao de texto como: HTML e CSS,
                 <br>
-                No dia a dia, sempre busco me aprimorar mais, descobrindo novas funções e linguangens para o aprimoramento pessoal.                
+                No dia a dia, sempre busco me aprimorar mais, descobrindo novas funções e linguangens para o aprimoramento pessoal.
             </div>
         </div>
     </main>
