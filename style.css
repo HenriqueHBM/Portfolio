@@ -91,7 +91,7 @@ header{
 footer{
     background-color: rgb(31, 29, 29);
     color: aliceblue;
-    padding: 5% 15%;
+    padding: 5% 15% 0 15%;
     letter-spacing: 1px;
 }
 
@@ -114,4 +114,57 @@ footer{
 }
 #contato-links div{
     margin-top: 3px;
+}
+
+#contato{
+    display: flex;
+}
+
+.flex-divid{
+    flex:1;
+    padding: 3%;
+}
+.input-contato {
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid rgb(24, 128, 219);
+    
+    outline: 0;
+    color: aliceblue;
+    font-size: 0.9rem;
+    padding: 8px 15px 0 15px;
+    background: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.input-contato-textarea{
+    height: 120px;
+}
+
+.field-group {
+    position: relative;
+    padding: 15px 0 0;
+}
+
+.label-field {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    height: 17px;
+    display: block;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: gray;
+}
+
+#contato-botao{
+    width: 107%;
+    height: 30px;
+    background-color: rgb(24, 128, 219);
+    border: none;
+    border-radius: 5px;
+    color:aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
