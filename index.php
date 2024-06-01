@@ -26,7 +26,7 @@
                 <a href="https://www.instagram.com/henrique_bm_/" target="_blank">
                     <img src="./icons/instagram.png" alt="Instagram" class="links-width-margin">
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=5545998493946" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5545998493946" target="_blank" rel="noopener">
                     <img src="./icons/whatsapp.png" alt="Whatsapp" class="links-width-margin">
                 </a>
                 <a href="mailto:henrique.madeira1@gmail.com" target="_blank">
@@ -57,7 +57,7 @@
                     <a href="mailto:henrique.madeira1@gmail.com" target="_blank" class="clear-link">henriquemadeira03@gmail.com</a>
                     <br>
                     <img src="./icons/whatsapp.png" width="20" height="20" alt="Whatsapp" class="margin-right-md">
-                    <a href="https://api.whatsapp.com/send?phone=5545998493946" target="_blank" class="clear-link"> (+55) 45 998449-3946</a>
+                    <a href="https://api.whatsapp.com/send?phone=5545998493946" target="_blank" class="clear-link" rel="noopener"> (+55) 45 998449-3946</a>
                 </div>
             </div>
         </div>
