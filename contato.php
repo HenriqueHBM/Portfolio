@@ -46,7 +46,5 @@
 </body>
 <div id="contato-footer">
     <?php require_once 'layouts/footer.php' ?>
-
 </div>
-
 </html>
