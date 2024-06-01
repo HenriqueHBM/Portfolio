@@ -44,10 +44,9 @@ header{
 .clear-link{
     text-decoration: none;
 }
-#menu > a{
+.menu > a{
     color: aliceblue;
     transition: color 0.2s ease-in-out;
-    margin: 10px;
 }
 
 #home{
@@ -75,7 +74,8 @@ header{
     border-radius: 50%;
 }
 
-#menu > a:hover{
+
+.menu > a:hover{
     color: rgb(24, 128, 219);
 }
 
@@ -88,58 +88,65 @@ header{
     margin-top: 20px;
 }
 
-footer{
-    background-color: rgb(31, 29, 29);
-    color: aliceblue;
-    padding: 5% 15% 0 15%;
-    letter-spacing: 1px;
-}
-
 #footer-copyright{
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     z-index: 1000;
-    /* height: 40px; */
     padding: 10px 0;
     text-align: center;
     justify-content: center;
     color: aliceblue;
 }
 
-#contato  a{
-    color: rgb(24, 128, 219);
-}
-#contato-links{
-    margin: 20px 0;
-}
-#contato-links div{
-    margin-top: 3px;
+
+#contato-body {
+    margin-top: 6%;
+    background-color: rgb(51, 48, 48);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #contato{
+    color: aliceblue;
+    padding: 2% 15% 2% 15%;
+    letter-spacing: 1px;
     display: flex;
 }
 
-.flex-divid{
-    flex:1;
+#box-contato {
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    min-height: 450px;
+    width: 800px;
+    color: aliceblue;
+}
+
+
+.flex-divid {
+    flex: 1;
     padding: 3%;
 }
+
 .input-contato {
     border: none;
-    margin-bottom: 15px;
-    width: 100%;
+    margin-bottom: 30px;
+    width: 95%;
     height: 30px;
     border-bottom: 2px solid rgb(24, 128, 219);
-    
+
     outline: 0;
     color: aliceblue;
     font-size: 0.9rem;
     padding: 8px 15px 0 15px;
     background: transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.input-contato-textarea{
+.input-contato-textarea {
     height: 120px;
 }
 
@@ -159,12 +166,33 @@ footer{
     color: gray;
 }
 
-#contato-botao{
-    width: 107%;
+#contato-botao {
+    width: 50%;
     height: 30px;
     background-color: rgb(24, 128, 219);
     border: none;
     border-radius: 5px;
-    color:aliceblue;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#header-contato {
+    color: aliceblue;
+}
+
+#contato a {
+    color: rgb(24, 128, 219);
+    font-size: 20px;
+}
+
+.margin-right-md {
+    margin-right: 10px;
+}
+
+main #contato{
+    background-color: rgb(31, 29, 29);
+}
+
+#contato-footer{
+    margin-top: 10%;
 }
