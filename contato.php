@@ -20,57 +20,6 @@
                 </div>
             </div>
         </div>
-        <style>
-            .error-validacao {
-                background-color: rgb(219, 37, 24, 0.3);
-                text-align: center;
-                margin-bottom: 0;
-                animation: fadeIn 0.4s;
-            }
-
-            @keyframes fadeIn {
-                0% {
-                    opacity: 0;
-                }
-
-                100% {
-                    opacity: 1;
-                }
-            }
-        </style>
-        <script>
-            //Verificando se possui letra de a-Z, e se possui caracteres especiais.
-            const regexNome = /^[a-zA-Z\s]+$/;
-            //Verifica o email.
-            const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
-            function erorr_menssagem(element) {
-                document.getElementById('error-' + element.name).hidden = false;
-                document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(219, 37, 24)';
-            }
-
-            function validar_contato() {
-                let errors = document.querySelectorAll('.input-contato');
-
-                let count_erro = 0;
-                errors.forEach((element, index) => {
-                    if (element.value.trim() === '') {
-                        erorr_menssagem(element);
-                        count_erro++;
-                    } else if (index === 0 && !regexNome.test(errors[0].value)) {
-                        erorr_menssagem(element);
-                        count_erro++;
-                    } else if (index === 1 && !regexEmail.test(errors[1].value)) {
-                        erorr_menssagem(element);
-                        count_erro++;
-                    } else {
-                        document.getElementById('error-' + element.name).hidden = true;
-                        document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(24, 128, 219)';
-                    }
-                });
-                return count_erro > 0 ? false : true;
-            }
-        </script>
         <form action="#" method="POST" onsubmit="return validar_contato()" id="box-contato" class="flex-divid">
             <div id="contato-inputs" class="flex-divid">
                 <p class="error-validacao" id="error-nome" hidden>Nome Invalido</p>
@@ -100,5 +49,6 @@
 <div id="contato-footer">
     <?php require_once 'layouts/footer.php' ?>
 </div>
+<script type="text/javascript" src="js/errors.js" defer></script>
 
 </html>
