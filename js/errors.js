@@ -10,13 +10,13 @@ function validar_contato() {
     errors.forEach((element, index) => {
         switch (true) {
             case element.value.trim() === '':
-            case !regexNome.test(errors[0].value):
+            case index === 0 && !regexNome.test(errors[0].value):
             case index === 1 && !regexEmail.test(errors[1].value):
                 document.getElementById('error-' + element.name).hidden = false;
                 document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(219, 37, 24)';
                 count_erro++;
-
                 break;
+
             default:
                 document.getElementById('error-' + element.name).hidden = true;
                 document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(24, 128, 219)';
