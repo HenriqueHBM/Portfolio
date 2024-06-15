@@ -3,6 +3,11 @@ const regexNome = /^[a-zA-Z\s]+$/;
 //Verifica o email.
 const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
+function erro_validacao(element) {
+    document.getElementById('error-' + element.name).hidden = false;
+    document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(219, 37, 24)';
+}
+
 function validar_contato() {
     let errors = document.querySelectorAll('.input-contato');
 
@@ -12,8 +17,7 @@ function validar_contato() {
             case element.value.trim() === '':
             case index === 0 && !regexNome.test(errors[0].value):
             case index === 1 && !regexEmail.test(errors[1].value):
-                document.getElementById('error-' + element.name).hidden = false;
-                document.getElementById('contato-' + element.name).style.borderBottom = '2px solid rgb(219, 37, 24)';
+                erro_validacao(element)
                 count_erro++;
                 break;
 

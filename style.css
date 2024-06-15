@@ -176,6 +176,10 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+#contato-botao:hover{
+    border: 1px solid rgb(69,169,169);
+}
+
 #header-contato {
     color: aliceblue;
 }
